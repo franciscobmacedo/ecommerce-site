@@ -1,0 +1,4 @@
+Django==5.0.4
+django-htmx==1.17.3
+python-dotenv==1.0.1
+stripe==9.1.0

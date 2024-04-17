@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>One-Product E-commerce Site</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="title" content="One-Product E-commerce Site" />
+    <meta
+      name="description"
+      content="One-Product E-commerce Site using Django, Stripe and htmx."
+    />
+    <meta name="keywords" content="E-commerce, Django, Stripe, htmx" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.11"
+      integrity="sha384-0gxUXCCR8yv9FM2b+U3FDbsKthCI66oH5IA9fHppQq9DDMHuMauqq1ZHBpJxQ0J0"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css" />
+  </head>
+  <body hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}' hx-boost="true">
+    <header>
+      <h1>One-Product E-commerce Site</h1>
+    </header>
+    <main>
+      <section>
+        {% if messages %}
+              {% for message in messages %}
+              <p><mark>{{ message }}</mark></p>
+              {% endfor %}
+        {% endif %}
+    </section>
+      {% block content %}
+      {% endblock %}
+    
+    </main>
+  </body>
+</html>
+´
