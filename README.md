@@ -3,7 +3,7 @@
 This repository contains the full code for a step-by-step guide on how to build a one-product e-commerce site using Django, htmx, and Stripe:
 
 - [part 1](https://blog.appsignal.com/2024/08/28/build-a-one-product-shop-with-the-python-django-framework-and-htmx.html) - configuring the Django project and integrating it with htmx for front-end interactivity
-- [part 2](https://blog.appsignal.com/2024/09/04/integrating-stripe-into-a-one-product-django-python-shop.html) - handle orders using Stripe (will be launched soon).
+- [part 2](https://blog.appsignal.com/2024/09/04/integrating-stripe-into-a-one-product-django-python-shop.html) - handle orders using Stripe
 
 ## Setup Instructions
 
